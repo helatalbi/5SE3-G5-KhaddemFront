@@ -1,9 +1,4 @@
-export enum Option {
-    GAMIX = 'GAMIX',
-    SE = 'SE',
-    SAE = 'SAE',
-    INFINI = 'INFINI'
-  }
+import { Option } from './Option'; 
   
   export class Etudiant {
     idEtudiant!: number;

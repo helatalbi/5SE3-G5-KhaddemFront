@@ -1,10 +1,10 @@
-import { Etudiant } from './Etudiant'; 
+import { Etudiant } from './Etudiant';
 import { DetailEquipe } from './DetailEquipe';
-
+import { Niveau } from './Niveau';
 export class Equipe {
   idEquipe!: number;
   nomEquipe!: string;
-  niveau!: string;
-  etudiants!: Etudiant[]; 
-  detailEquipe!: DetailEquipe; 
+  niveau!: Niveau;
+  etudiants!: Etudiant[];
+  detailEquipe!: DetailEquipe;
 }
