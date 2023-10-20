@@ -55,6 +55,7 @@ describe('EquipeService', () => {
     req.flush(mockEquipe);
   });
 
+
   it('should add a new Equipe when calling addEquipe', () => {
     const newEquipe: Equipe = { idEquipe: 3, nomEquipe: 'New Equipe', niveau: Niveau.EXPERT, etudiants: [], detailEquipe: new DetailEquipe() };
 
