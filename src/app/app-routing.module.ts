@@ -3,12 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import {EtudiantComponent} from "../app/components/etudiant/etudiant.component";
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { UniversiteComponent } from './components/universite/universite.component';
 
 
 
 const routes: Routes = [
   { path: 'etudiant', component: EtudiantComponent },
   { path: 'sidebar', component: SidebarComponent },
+  { path: 'universite', component: UniversiteComponent },
+
 
 ];
 
