@@ -1,3 +1,4 @@
+// @ts-ignore
 import { Component, OnInit } from '@angular/core';
 import { Universite } from '../../models/Universite';
 import { UniversiteService } from '../../services/universite.service';
@@ -43,7 +44,7 @@ export class UniversiteComponent implements OnInit {
       });
   }
 
-  
+
 
   toggleAddForm() {
     this.showAddForm = !this.showAddForm;
