@@ -7,6 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // Import For
 import { EtudiantComponent } from './components/etudiant/etudiant.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { UniversiteComponent } from './components/universite/universite.component';
+import { ContratComponent } from './components/contrat/contrat.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { UniversiteComponent } from './components/universite/universite.componen
     EtudiantComponent,
     SidebarComponent,
     UniversiteComponent,
+    ContratComponent,
   ],
   imports: [
     BrowserModule,
