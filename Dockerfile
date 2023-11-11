@@ -1,5 +1,5 @@
 # stage 1
-FROM node:14 as node
+FROM node:18 as node
 
 WORKDIR /Khaddem-Angular
 
