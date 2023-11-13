@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {Equipe} from "../../models/Equipe";
-import {EquipeService} from "../../services/Equipe.service";
+import {EquipeService} from "../../services/equipe.service";
 
 @Component({
   selector: 'app-equipe',

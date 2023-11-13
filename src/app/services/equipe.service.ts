@@ -7,9 +7,11 @@ import { Equipe } from '../models/Equipe';
   providedIn: 'root'
 })
 export class EquipeService {
-  private baseUrl = 'http://localhost:8089/Kaddem/equipe';
+  baseUrl: string = 'http://20.76.187.43:8089/Kaddem/equipe';
 
-  constructor(private http: HttpClient) { }
+
+  constructor(private http: HttpClient) {
+  }
 
 
   getEquipes(): Observable<Equipe[]> {
