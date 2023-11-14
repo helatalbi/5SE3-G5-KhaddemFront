@@ -1,6 +1,6 @@
 version: "2"
 services:
-    frontend:
+  frontend:
     image: fedilabidi13/fedilabidi-5se3-g5-khaddem-front:latest
     ports:
       - "80:80"
